@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*changing width of the browser*/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+/*contact to stick left*/
+.push {
+    margin-left: auto;
+}
+/*nav styling*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000000;
+    z-index: 999;
+    padding:30px 0px;
+    font-family: 'Ubuntu' , 'sans-serif';
+    transition: color 0.3s ease; 
+  }
+  .navbar .menu li a:hover{
+      color: orangered;
+  }
+  .navbar .menu li a{
+      color: orange;
+      font-size:18px;
+      margin-left: 25px;
+      font-weight:600;
+      float: left;
+  }
+  .navbar .menu li{
+      list-style: none;
+      display: inline-block;
+  }
+  .max-width{
+      max-width: 1300px;
+      padding: 0 80px;
+      margin: auto;
+  }
+  .navbar .max-width{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+
+  
+  /*cover*/
+  .container .cover {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.coverText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+.container1 .cover {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.coverText1 {
+    position: absolute;
+    left: 50%;
+    center: 130%;
+    transform: translate(-50%, -130%);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*grid part*/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+    background: #000000;
+}
+.card {
+    background-color: #444;
+    margin: 50px;
+}
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+.card h1 {
+    font-size: 1.5rem;
+    color: orange;
+}
+.card p {
+    font-size: 1rem;
+    text-align: center;
+
+}
+.card > .text {
+    padding: 0 20px 20px;
+}
+/*button*/
+button {
+    cursor: pointer;
+    background: gray;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+button:hover {
+    background-color: orange;
+}
+.bttn{
+    background-color:red;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+    cursor: pointer;
+}
+/*footer*/
+footer{
+    text-align: center;
+    padding:3px;
+    background-color: #000000;
+    font-size: 1rem;
+    color: orange;
+    
+}
