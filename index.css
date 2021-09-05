@@ -116,12 +116,17 @@
 p1{
     color: whitesmoke;
     text-align: center;
-    background-color: black;
+    
 }
+h1a{
+    color: orange;
+    float:right;
+}
+
 /*button*/
 button {
     cursor: pointer;
-    background: gray;
+    background: orangered;
     border: 0;
     font-size: 1rem;
     color: white;
@@ -131,7 +136,7 @@ button {
 button:hover {
     background-color: orange;
 }
-.bttn{
+/*.bttn{
     background-color:red;
     color: white;
     text-align: center;
