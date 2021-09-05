@@ -113,6 +113,11 @@
 .card > .text {
     padding: 0 20px 20px;
 }
+p1{
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
+}
 /*button*/
 button {
     cursor: pointer;
@@ -141,5 +146,5 @@ footer{
     background-color: #000000;
     font-size: 1rem;
     color: orange;
-    
+
 }
