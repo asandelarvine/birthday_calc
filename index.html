@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="main.js"></script>
+    <script src="./akanNames.js"></script>
     <title>jambo</title>
 </head>
 <body>
@@ -104,10 +104,9 @@
                     <label for="gender">Gender:</label><br>
                     <input type="radio" name="gender" value="male"> Male 
                     <input type="radio" name="gender" value="male"> Female <br><br>
-                    <input type="number" name="date" id="date">
-                    <input type="number" name="month" id="month">
-                    <input type="number" name="year" id="year">
-                    <button class="bttn" onclick="finder()" > Submit</button>
+                    <label for="day">Date of birth</label>
+                    <input type="date" name="date" class="form-control" id="date" value="">
+                    <button id="calculateButton" type="button" class="btn btn-info">Get Your Name</button>
                 </form> 
             </div>  
                      
@@ -122,6 +121,8 @@
                 Created by <a href="#">AsandeLarvine</a> |  <span class="copyright">2021 All rights reserved</span>
             </span>
         </footer>
+        
       </div>
+      <script src="./main.js"></script>
 </body>
 </html>
