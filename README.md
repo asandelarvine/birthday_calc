@@ -13,7 +13,7 @@ This is an application website which will take up the users' birthday and calcul
 
 #### CHECK OUT THE WEBSITE:
 
-[]
+[https://asandelarvine.github.io/birthday_calc/]
 
 ## SETUP/INSTALLATION REQUIREMENTS:
 
@@ -28,6 +28,20 @@ I had a challenge on getting the akan name display as output.
 HTML
 CSS
 JavaScript
+
+### BDD
+
+No data entered
+
+Wrong input entered
+
+Correct data entry
+
+Sample input
+1999 3 20 Female
+
+Expected output
+Your Akan name is:Kwame
 
 ## SUPPORT AND CONTACT DETAILS:
 
