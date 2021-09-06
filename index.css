@@ -114,19 +114,21 @@
     padding: 0 20px 20px;
 }
 p1{
-    color: whitesmoke;
+    color: black;
     text-align: center;
+    
 }
 h1a{
     color: orange;
-    float: right;
+    float:right;
 }
+
 /*button*/
 button {
     cursor: pointer;
-    background:orangered;
+    background: orangered;
     border: 0;
-    font-size: 1rem;
+    font-size: 16px;
     color: white;
     padding: 10px;
     width: 100%;
@@ -134,7 +136,6 @@ button {
 button:hover {
     background-color: orange;
 }
-.
 /*footer*/
 footer{
     text-align: center;
@@ -144,3 +145,22 @@ footer{
     color: orange;
 
 }
+.container{
+    width: 100%;
+    text-align: center;
+    background-image: url(./images/backgrnd.jpg);
+    margin: auto;
+    height: 80vh;
+    color: #fff;
+  }
+  h2{
+      color: orange;
+  }
+  #search{
+      width: 20em;
+  }
+  
+  
+
+  
+  

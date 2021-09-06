@@ -13,21 +13,46 @@ This is an application website which will take up the users' birthday and calcul
 
 #### CHECK OUT THE WEBSITE:
 
-[]
+[https://asandelarvine.github.io/birthday_calc/]
 
 ## SETUP/INSTALLATION REQUIREMENTS:
 
-Get VisiualStudio code on GitHub
+--Open Terminal
+
+--git clone https://github.com/asandelarvine/birthday_calc.git
+
+--cd birthday_calc
+
+--code .(visualstudio)   
+
+based on the text editor you have
 
 ## KNOWN BUGS:
 
-I had a challenge on getting the akan name display as output.
+I had a challenge on getting the akan name display as output 
+
+But with did a perfect research on what the correct formula shuld be.
 
 #### TECHNOLOGIES USED:
 
 HTML
 CSS
 JavaScript
+
+#### BDD
+Input
+
+Year-The year of birth
+
+Month-Month of the year
+
+DateOfBirth-Day of the month
+
+Output
+
+
+DayOfBirth - The day of the week the user was born e.g 1999 03 20 Female
+Akan name - The Akan name of the user e.g Afua
 
 ## SUPPORT AND CONTACT DETAILS:
 

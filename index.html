@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="./akanNames.js"></script>
+    
     <title>jambo</title>
 
 </head>
@@ -21,7 +21,12 @@
         </nav>
         <div class="container">
             <img class="cover" src="./images/kente1.jpg">
-            <div class="coverText"><h1>GHANA BEING TRUE TO OUR ROOTS!!</h1></div>
+            <div class="coverText"><h1>GHANA BEING TRUE TO OUR ROOTS!!</h1><br><br><br>
+                <p1>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.
+                    Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p1>
+                
+            </div>
+           
         </div>
         
         <!--about-->
@@ -47,7 +52,7 @@
                     
                 </div>
             </div>
-          <div class="card zone"><img src="./images/jwl1.webp">
+          <div class="card zone"><img src="./images/jwl1.webp" style="position:center" >
               <div class="text">
                   <h1>BACKGROUND</h1> <br>
                   <p>The naming system of the Akan people uses the Kwa language group's system of
@@ -89,30 +94,42 @@
         </div>
 
         <!--form-->
-        <div class="container1">
-            <img class="cover" src="./images/bgnd.jpg">
-    
-            <div class="coverText1"><h1a>Get to Know Your Akan Name.</h1a><br><br>
-                <form action="#" id="akansForm">
-                    <p1>
-                        This application will take up the users' birthday and calculates the day of week they were born and
-                        it's output will be their Akan Name, 
-                        depending on their gender.
-                    </p1><br><br>
-                    <h1>Fill in the form to get your Akan Name</h1>
-                    <label for="gender" id="gender" style="color: whitesmoke;" >Gender:</label><br>
-                    <input type="radio" name="gender" value="male"> Male 
-                    <input type="radio" name="gender" value="male"> Female <br><br>
-                    <label for="date" id="date" style="color: whitesmoke;" >Date of birth:</label>
-                    <input type="date" name="date" class="form-control" id="date" value=""><br><br><br>
-                    <button id="calculateButton" type="button" class="btn btn-info">Get Your Name</button>
-                </form> 
+            <div class="overlay">
+                <div class="container">
+                  <h2>Enter Your Details Here!  </h2><br><br>
+                  <form name="myForm" class="form" onsubmit="validate();">
+                    <div class="form-group">
+                      <label for="number">Year of Birth:</label> 
+                      <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year"><br><br><br>
+                    </div>
+                    <div class="form-group">
+                      <label for="month">Month of Birth:</label>
+                      <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month"><br><br><br>
+                    </div>
+                    <div class="form-group">
+                      <label for="date">Date of Birth:</label>
+                      <input type="number" class="form-control" id="date" placeholder="Date of Birth" name="date"><br><br><br>
+                    </div>
+                    <div class="form-group">
+                      <label for="month">Gender:</label>
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="search" onclick="findName();">Get Name</button>
+                    <br>
+                  </form>
+                  <p id="results"> </p>
+                </div>
             </div>
-            <div class="result" id="result">show result</div>  
-                     
-            </div>
-            
-
+          
 
 
                 
