@@ -32,10 +32,14 @@ JavaScript
 ### BDD
 
 No data entered
+
 Wrong input entered
+
 Correct data entry
+
 Sample input
 1999 3 20 Female
+
 Expected output
 Your Akan name is:Kwame
 
