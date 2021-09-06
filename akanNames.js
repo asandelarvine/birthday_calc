@@ -39,7 +39,8 @@ const akanNames = [
         gender:'Female',
         dayOfBirth: 'Sunday',
         name:'Akosua'
-    }, {
+    },
+     {
         gender:'Female',
         dayOfBirth: 'Monday',
         name:'Adwoa'
