@@ -17,7 +17,15 @@ This is an application website which will take up the users' birthday and calcul
 
 ## SETUP/INSTALLATION REQUIREMENTS:
 
-Get VisiualStudio code on GitHub
+--Open Terminal
+
+--git clone https://github.com/asandelarvine/birthday_calc.git
+
+--cd birthday_calc
+
+--code .(visualstudio)   
+
+based on the text editor you have
 
 ## KNOWN BUGS:
 
