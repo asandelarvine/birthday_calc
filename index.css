@@ -116,15 +116,27 @@
 p1{
     color: whitesmoke;
     text-align: center;
+gh-pages
 }
 h1a{
     color: orange;
     float: right;
+
+ master
 }
+h1a{
+    color: orange;
+    float:right;
+}
+
 /*button*/
 button {
     cursor: pointer;
+gh-pages
     background:orangered;
+
+    background: orangered;
+master
     border: 0;
     font-size: 1rem;
     color: white;
@@ -134,7 +146,17 @@ button {
 button:hover {
     background-color: orange;
 }
-.
+ gh-pages
+
+/*.bttn{
+    background-color:red;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size:16px;
+    cursor: pointer;
+}
+master
 /*footer*/
 footer{
     text-align: center;

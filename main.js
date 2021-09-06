@@ -1,7 +1,7 @@
 const akansForm = document.getElementById('akansForm');
 const daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const calcBtn = document.getElementById('calculateButton');
-const result = document.getElementById('result');
+const calculateButton = document.getElementById('calculateButton');
+//const result = document.getElementById('result');
 
 function calculateDayOfBirth(birthDate, gender){
 
@@ -16,7 +16,7 @@ function calculateDayOfBirth(birthDate, gender){
 
 }
 
-calcBtn.addEventListener('click', function(){
+calculateButton.addEventListener('click', function(){
     const akan = calculateDayOfBirth(akansForm.date.value, akansForm.gender.value );
     result.innerHTML = akan.name;
     // alert(akan.name);
