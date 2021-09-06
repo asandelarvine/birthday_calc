@@ -21,13 +21,30 @@ Get VisiualStudio code on GitHub
 
 ## KNOWN BUGS:
 
-I had a challenge on getting the akan name display as output.
+I had a challenge on getting the akan name display as output 
+
+But with did a perfect research on what the correct formula shuld be.
 
 #### TECHNOLOGIES USED:
 
 HTML
 CSS
 JavaScript
+
+#### BDD
+Input
+
+Year-The year of birth
+
+Month-Month of the year
+
+DateOfBirth-Day of the month
+
+Output
+
+
+DayOfBirth - The day of the week the user was born e.g 1999 03 20 Female
+Akan name - The Akan name of the user e.g Afua
 
 ## SUPPORT AND CONTACT DETAILS:
 
