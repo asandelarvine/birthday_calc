@@ -13,7 +13,7 @@ This is an application website which will take up the users' birthday and calcul
 
 #### CHECK OUT THE WEBSITE:
 
-[]
+[https://asandelarvine.github.io/birthday_calc/]
 
 ## SETUP/INSTALLATION REQUIREMENTS:
 
