@@ -5,21 +5,21 @@ var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 
 function validate() {
   var genders = document.getElementsByName("gender");
-  if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
+  if( document.form.year.value == "" || document.form.year.value.length !=4 || document.form.year.value >2100 || document.form.year.value <=1900) {
      alert( "Please provide a valid year of birth! eg 2019" );
-     document.myForm.year.focus() ;
+     document.form.year.focus() ;
      return false;
   }
-  else if( document.myForm.month.value == "" || isNaN( document.myForm.month.value ) || 
-  document.myForm.month.value.length != 2 || document.myForm.month.value > 12  || document.myForm.month.value <= 0){
+  else if( document.form.month.value == "" || isNaN( document.form.month.value ) || 
+  document.form.month.value.length != 2 || document.form.month.value > 12  || document.form.month.value <= 0){
      alert( "Please provide your month of birth! between 1 and 12" );
-     document.myForm.month.focus() ;
+     document.form.month.focus() ;
      return false;
   }
-  else if( document.myForm.date.value == "" || isNaN( document.myForm.month.value ) || 
-  document.myForm.month.value.length != 2|| document.myForm.date.value > 31 || document.myForm.date.value <= 0) {
+  else if( document.form.date.value == "" || isNaN( document.form.month.value ) || 
+  document.form.month.value.length != 2|| document.form.date.value > 31 || document.form.date.value <= 0) {
      alert( "Please provide a valid date that you were born in!" );
-     document.myForm.day.focus() ;
+     document.form.day.focus() ;
      return false;
   }
   else if(genders[0].checked==false && genders[1].checked==false ) {
