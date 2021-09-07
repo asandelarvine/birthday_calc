@@ -89,7 +89,7 @@
 /*grid part*/
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-gap: 10px;
     background: #000000;
 }
@@ -125,6 +125,7 @@ h1a{
     float:right;
 }
 
+
 /*button*/
 button {
     cursor: pointer;
@@ -152,7 +153,7 @@ footer{
     text-align: center;
     background-image: url(./images/backgrnd.jpg);
     margin: auto;
-    height: 80vh;
+    height: 100%;
     color: #fff;
   }
   h2{
