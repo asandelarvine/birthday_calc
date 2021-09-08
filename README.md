@@ -1,4 +1,4 @@
-#### BIRTHDAY_CALCULATION
+##  BIRTHDAY_CALCULATION
 
 A landing page of a website. {Date Sept 6 2021}
 
@@ -6,24 +6,24 @@ A landing page of a website. {Date Sept 6 2021}
 
 Larvine Asande
 
-### DESCRIPTION:
+## DESCRIPTION:
 
 This is an application website which will take up the users' birthday and calculates the day of week they were born and it's output will be their Akan Name, depending on their gender.
                         
 
-#### CHECK OUT THE WEBSITE:
+# CHECK OUT THE WEBSITE:
 
 [https://asandelarvine.github.io/birthday_calc/]
 
-#### SETUP/INSTALLATION REQUIREMENTS:
+# SETUP/INSTALLATION REQUIREMENTS:
 
-# Open Terminal
+### Open Terminal
 
-# git clone https://github.com/asandelarvine/birthday_calc.git
+### git clone https://github.com/asandelarvine/birthday_calc.git
 
-# cd birthday_calc
+### cd birthday_calc
 
-# code .(visualstudio) 
+### code .(visualstudio) 
 
 
 based on the text editor you have
@@ -38,7 +38,7 @@ the days of the week, it outputs the day before instead.
 
 
 
-#### TECHNOLOGIES USED:
+## TECHNOLOGIES USED:
 
 HTML
 
@@ -47,7 +47,7 @@ CSS
 JavaScript
 
 
-#### BDD
+## BDD
 Input
 
 
@@ -73,7 +73,7 @@ Akan name - The Akan name of the user e.g Afua
 
 If you have any issues, questions, ideas or concerns, feel free to contact. {Email: asandelarvine@gmail.com}
 
-#### LICENCE:
+## LICENCE:
 
 This project is under the MIT licence:
 
